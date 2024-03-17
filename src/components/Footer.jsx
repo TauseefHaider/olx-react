@@ -98,15 +98,15 @@ function Footer() {
           <div className="pt-2 pl-32">
             <p className="font-bold ml-1 mb-1">FOLLOW US</p>
             <div className="flex gap-1">
-              <img className="w-[25px]" src={tw} alt="" />
-              <img className="w-[25px]" src={fb} alt="" />
-              <img className="w-[25px]" src={mu} alt="" />
-              <img className="w-[25px]" src={ins} alt="" />
+              <img className="w-[25px] cursor-pointer" src={tw} alt="" />
+              <img className="w-[25px] cursor-pointer" src={fb} alt="" />
+              <img className="w-[25px] cursor-pointer" src={mu} alt="" />
+              <img className="w-[25px] cursor-pointer" src={ins} alt="" />
             </div>
             <div className="flex gap-2 mt-8">
-              <img className="w-[80px]" src={as} alt="" />
-              <img className="w-[80px]" src={gs} alt="" />
-              <img className="w-[80px]" src={ag} alt="" />
+              <img className="w-[80px] cursor-pointer" src={as} alt="" />
+              <img className="w-[80px] cursor-pointer" src={gs} alt="" />
+              <img className="w-[80px] cursor-pointer" src={ag} alt="" />
             </div>
           </div>
         </div>
