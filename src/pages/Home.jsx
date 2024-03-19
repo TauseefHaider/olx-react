@@ -174,156 +174,175 @@ function Home() {
   ];
   return (
     <>
-      <section class=" md:max-w-[1280px] md:mx-auto">
+      <section className=" md:max-w-[1280px] md:mx-auto">
         {/* <!-- all categories --> */}
-        <div class="pb-11 py-3 px-2">
-          <h1 class="md:text-2xl text-lg font-bold py-2">All categories</h1>
-          <div class="flex font-bold gap-y-20 gap-x-10 flex-wrap justify-center md:justify-start py-5">
-            <div class="w-[106px] h-[116px]">
+        <div className="pb-11 py-3 px-2">
+          <h1 className="md:text-2xl text-lg font-bold py-2">All categories</h1>
+          <div className="flex font-bold gap-y-20 gap-x-10 flex-wrap justify-center md:justify-start py-5">
+            <div className="w-[106px] h-[116px]">
               <img src={mob} alt="" />
-              <div class="text-center py-3">Mobiles</div>
+              <div className="text-center py-3">Mobiles</div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={vihecal} alt="" />
-              <div class="text-center py-3">Vehicles</div>
+              <div className="text-center py-3">Vehicles</div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={home} alt="" />
-              <div class="text-center py-3">Property For Sale</div>
+              <div className="text-center py-3">Property For Sale</div>
             </div>
-            <div class="w-[106px] h-[116px]">
-              <img class="w-full h-auto" src={key} alt="" />
-              <div class="text-center py-3">Property For Rent</div>
+            <div className="w-[106px] h-[116px]">
+              <img className="w-full h-auto" src={key} alt="" />
+              <div className="text-center py-3">Property For Rent</div>
             </div>
-            <div class="w-[106px] h-[116px]">
-              <img class="w-full h-auto" src={camera} alt="" />
-              <div class="text-center py-3">Electronics & Home Appliances</div>
+            <div className="w-[106px] h-[116px]">
+              <img className="w-full h-auto" src={camera} alt="" />
+              <div className="text-center py-3">
+                Electronics & Home Appliances
+              </div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={bike} alt="" />
-              <div class="text-center py-3">Bikes</div>
+              <div className="text-center py-3">Bikes</div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={trackter} alt="" />
-              <div class="text-center py-3">
+              <div className="text-center py-3">
                 Business, Industrial & Agriculture
               </div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={services} alt="" />
-              <div class="text-center py-3">Services</div>
+              <div className="text-center py-3">Services</div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={jobs} alt="" />
-              <div class="text-center py-3">Jobs</div>
+              <div className="text-center py-3">Jobs</div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={animals} alt="" />
-              <div class="text-center py-3">Animals</div>
+              <div className="text-center py-3">Animals</div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={furniture} alt="" />
-              <div class="text-center py-3">Furniture & Home Decor</div>
+              <div className="text-center py-3">Furniture & Home Decor</div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={fashion} alt="" />
-              <div class="text-center py-3">Fashion & Beauty</div>
+              <div className="text-center py-3">Fashion & Beauty</div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={books} alt="" />
-              <div class="text-center py-3">Books, Sports & Hobbies</div>
+              <div className="text-center py-3">Books, Sports & Hobbies</div>
             </div>
-            <div class="w-[106px] h-[116px]">
+            <div className="w-[106px] h-[116px]">
               <img src={kids} alt="" />
-              <div class="text-center py-3">Kids</div>
+              <div className="text-center py-3">Kids</div>
             </div>
           </div>
         </div>
         {/* <!-- moblie phones --> */}
-        <div class="py-4 ">
-          <div class="flex justify-between items-center px-2 py-3">
-            <h1 class="md:text-2xl text-lg font-bold">Mobile Phones</h1>
+        <div className="py-4 ">
+          <div className="flex justify-between items-center px-2 py-3">
+            <h1 className="md:text-2xl text-lg font-bold">Mobile Phones</h1>
             <Link
               to={"mobiles"}
-              class="flex items-center  justify-center gap-1 font-bold text-[#00a49f]"
+              className="flex items-center  justify-center gap-1 font-bold text-[#00a49f]"
             >
               View more
-              <span class="material-symbols-outlined"> arrow_forward_ios </span>
+              <span className="material-symbols-outlined">
+                {" "}
+                arrow_forward_ios{" "}
+              </span>
             </Link>
           </div>
-          <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row gap-x-8 justify-center lg:justify-start">
+          <div className="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row gap-x-8 justify-center lg:justify-start">
             {mobileArray.map((product, i) => {
               return <Card product={product} key={product.img} />;
             })}
           </div>
         </div>
         {/* <!-- Cars --> */}
-        <div class="py-4 ">
-          <div class="flex justify-between items-center px-2 py-3">
-            <h1 class="md:text-2xl text-lg font-bold">Cars</h1>
+        <div className="py-4 ">
+          <div className="flex justify-between items-center px-2 py-3">
+            <h1 className="md:text-2xl text-lg font-bold">Cars</h1>
             <Link
               to={"cars"}
-              class="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
+              className="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
             >
               View more
-              <span class="material-symbols-outlined"> arrow_forward_ios </span>
+              <span className="material-symbols-outlined">
+                {" "}
+                arrow_forward_ios{" "}
+              </span>
             </Link>
           </div>
-          <div class="flex flex-wrap lg:flex-nowrap justify-center lg:justify-start gap-3 md:flex-row gap-x-8">
+          <div className="flex flex-wrap lg:flex-nowrap justify-center lg:justify-start gap-3 md:flex-row gap-x-8">
             {carArray.map((product, i) => {
               return <Card product={product} key={product.img} />;
             })}
           </div>
         </div>
         {/* <!-- Bikes --> */}
-        <div class="py-4  ">
-          <div class="flex justify-between items-center px-2 py-3">
-            <h1 class="md:text-2xl text-lg font-bold">Bikes & Motorcycles</h1>
+        <div className="py-4  ">
+          <div className="flex justify-between items-center px-2 py-3">
+            <h1 className="md:text-2xl text-lg font-bold">
+              Bikes & Motorcycles
+            </h1>
             <Link
               to={"bikes"}
-              class="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
+              className="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
             >
               View more
-              <span class="material-symbols-outlined"> arrow_forward_ios </span>
+              <span className="material-symbols-outlined">
+                {" "}
+                arrow_forward_ios{" "}
+              </span>
             </Link>
           </div>
-          <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
+          <div className="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
             {bikeArray.map((product, i) => {
               return <Card product={product} key={product.img} />;
             })}
           </div>
         </div>
         {/* <!-- Houses --> */}
-        <div class="py-4 ">
-          <div class="flex justify-between items-center px-2 py-3">
-            <h1 class="md:text-2xl text-lg font-bold">Houses</h1>
+        <div className="py-4 ">
+          <div className="flex justify-between items-center px-2 py-3">
+            <h1 className="md:text-2xl text-lg font-bold">Houses</h1>
             <Link
               to={"houses"}
-              class="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
+              className="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
             >
               View more
-              <span class="material-symbols-outlined"> arrow_forward_ios </span>
+              <span className="material-symbols-outlined">
+                {" "}
+                arrow_forward_ios{" "}
+              </span>
             </Link>
           </div>
-          <div class="flex flex-wrap lg:flex-nowrap gap-3 md:lex-row justify-center lg:justify-start gap-x-8">
+          <div className="flex flex-wrap lg:flex-nowrap gap-3 md:lex-row justify-center lg:justify-start gap-x-8">
             {houseArray.map((product, i) => {
               return <Card product={product} key={product.img} />;
             })}
           </div>
         </div>
         {/* <!-- Tablets --> */}
-        <div class="py-4 ">
-          <div class="flex justify-between items-center px-2 py-3">
-            <h1 class="md:text-2xl text-lg font-bold">Tablets</h1>
+        <div className="py-4 ">
+          <div className="flex justify-between items-center px-2 py-3">
+            <h1 className="md:text-2xl text-lg font-bold">Tablets</h1>
             <Link
               to={"tablets"}
-              class="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
+              className="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
             >
               View more
-              <span class="material-symbols-outlined"> arrow_forward_ios </span>
+              <span className="material-symbols-outlined">
+                {" "}
+                arrow_forward_ios{" "}
+              </span>
             </Link>
           </div>
-          <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
+          <div className="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
             {tabletArray.map((product, i) => {
               return <Card product={product} key={product.img} />;
             })}
