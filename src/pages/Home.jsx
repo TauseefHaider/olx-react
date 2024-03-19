@@ -34,8 +34,35 @@ import t1 from "../assets/images/t1.jpg";
 import t2 from "../assets/images/t2.jpg";
 import t3 from "../assets/images/t3.jpg";
 import t4 from "../assets/images/t4.jpg";
+import Card from "../components/Card";
 
 function Home() {
+  const mobileArray = [
+    {
+      img: m1,
+      price: "55500",
+      name: "IPhone XR 128GB",
+      address: "Gulshan-e-Ravi, Lahore",
+    },
+    {
+      img: m2,
+      price: "108,999",
+      name: "IPhone 13 128GB JV",
+      address: "Saddar, Karachi",
+    },
+    {
+      img: m3,
+      price: "19,000",
+      name: "Infinix hot 11 play 6000 mah battery",
+      address: "Awan Town, Lahore",
+    },
+    {
+      img: m4,
+      price: "69,999",
+      name: "IPhone XS Max 64GB NOT PTA",
+      address: "Gulberg 3, Lahore",
+    },
+  ];
   return (
     <>
       <section class=" md:max-w-[1280px] md:mx-auto">
@@ -116,71 +143,9 @@ function Home() {
             </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row gap-x-8 justify-center lg:justify-start">
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={m1}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 55,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">IPhone XR 128GB</p>
-                <p class="text-xs">Gulshan-e-Ravi, Lahore</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={m2}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 108,999</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">IPhone 13 128GB JV</p>
-                <p class="text-xs">Saddar, Karachi</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={m3}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 19,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Infinix hot 11 play 6000 mah battery</p>
-                <span>Awan Town, Lahore</span>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={m4}
-                alt=""
-              />
-
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 69,999</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">IPhone XS Max 64GB NOT PTA</p>
-                <p class="text-xs">Gulberg 3, Lahore</p>
-              </div>
-            </div>
+            {mobileArray.map((product, i) => {
+              return <Card product={product} key={product.img} />;
+            })}
           </div>
         </div>
         {/* <!-- Cars --> */}
