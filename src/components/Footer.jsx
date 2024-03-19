@@ -12,7 +12,7 @@ function Footer() {
   return (
     <>
       {/* first div */}
-      <div className="mt-4 text-[#002f34] bg-[#f8faf9] flex gap-10 pl-28 pr-16 border-b-2 border-[#c6cfd1] ">
+      <div className="mt-4 text-[#002f34] bg-[#f8faf9] md:flex gap-10 pl-28 pr-16 border-b-2 border-[#c6cfd1] hidden ">
         <img src={f1} alt="" />
         <div className="py-6   w-[410px]">
           <div className="gap-4 flex flex-col border-r-2 border-[#c6cfd1]">
@@ -34,8 +34,8 @@ function Footer() {
       </div>
       {/* second div */}
       <div className="bg-[#ebeeef] text-sm  ">
-        <div className="max-w-[1280px] mx-auto py-6 flex gap-16 pb-10">
-          <div className="flex flex-col gap-1">
+        <div className="max-w-[1280px] items-center py-6 flex flex-col md:flex-row gap-16 pb-10">
+          <div className="flex flex-col items-center gap-1">
             <p className="font-bold mb-1">POPULAR CATEGORIES</p>
             <p className="text-[#616768] text-[12px] cursor-pointer hover:text-[#002f34]">
               Cars
@@ -50,7 +50,7 @@ function Footer() {
               Jobs
             </p>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col items-center gap-1">
             <p className="font-bold mb-1">TRENDING SEARCHES</p>
             <p className="text-[#616768] text-[12px] cursor-pointer hover:text-[#002f34]">
               Bikes
@@ -65,7 +65,7 @@ function Footer() {
               Dogs
             </p>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col items-center gap-1">
             <p className="font-bold mb-1">ABOUT US</p>
             <p className="text-[#616768] text-[12px] cursor-pointer hover:text-[#002f34]">
               About Dubizzie Group
@@ -80,7 +80,7 @@ function Footer() {
               OLX for Businesses
             </p>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col item-center gap-1">
             <p className="font-bold mb-1">OLX</p>
             <p className="text-[#616768] text-[12px] cursor-pointer hover:text-[#002f34]">
               Help
@@ -95,7 +95,7 @@ function Footer() {
               Privacy Policy
             </p>
           </div>
-          <div className="pt-2 pl-32">
+          <div className="pt-2 md:pl-32 flex flex-col items-center">
             <p className="font-bold ml-1 mb-1">FOLLOW US</p>
             <div className="flex gap-1">
               <img className="w-[25px] cursor-pointer" src={tw} alt="" />
@@ -113,9 +113,11 @@ function Footer() {
       </div>
       {/* third div */}
       <div className="bg-[#002f34] text-white">
-        <div className="flex justify-end items-center pr-40 py-4">
-          <p className="font-bold text-[12px]">Free Classifieds in Pakistan</p>
-          <p className="ml-2 text-[12px]"> . © 2006-2024 OLX</p>
+        <div className="flex md:justify-end justify-center items-center md:pr-40 py-4">
+          <p className="font-bold text-center text-[10px]">
+            Free Classifieds in Pakistan
+          </p>
+          <p className="ml-2 text-center text-[10px]"> . © 2006-2024 OLX</p>
         </div>
       </div>
     </>

@@ -10,8 +10,8 @@ function Header() {
   return (
     <>
       <header className="bg-[#f7f8f8] sticky top-0">
-        <div className="flex flex-col gap-2 max-w-[1280px] mx-auto py-3">
-          <div className="flex items-center gap-10">
+        <div className="flex flex-col  gap-2 w-full md:max-w-[1280px] md:mx-auto py-3">
+          <div className="flex items-center gap-6 md:gap-10 mx-2">
             <img className="cursor-pointer" src={logo} alt="Logo" />
             <button className="group">
               <img src={motors} className="hover:fill-[#3a77ff]" alt="" />
@@ -20,7 +20,7 @@ function Header() {
               <img src={property} alt="" />
             </button>
           </div>
-          <div className="flex items-center gap-5">
+          <div className="md:flex items-center gap-5 hidden">
             <img
               className="h-[2.235rem] mr-2 cursor-pointer"
               src={blacklogo}
@@ -36,9 +36,9 @@ function Header() {
               />
               <span className="material-symbols-outlined"> expand_more </span>
             </div>
-            <div className="flex items-center border-2 border-[#002f34] rounded-[4px] bg-white flex-1">
+            <div className="flex items-center border-2 border-[#002f34] rounded-[4px] bg-white md:flex-1">
               <input
-                className="outline-none border-0 text-lg p-2 flex-1"
+                className="outline-none border-0 text-lg p-2 md:flex-1"
                 type="text"
                 placeholder="Find cars, mobile phones, and more..."
                 value=""
@@ -66,7 +66,7 @@ function Header() {
         </div>
       </header>
       {/* Manu */}
-      <menu className="py-2 border-b-2 shadow-md">
+      <menu className="py-2 border-b-2 shadow-md hidden">
         <div className="flex max-w-[1280px] mx-auto gap-5">
           <div className="flex justify-center items-center gap-2 font-bold cursor-pointer">
             <span>All categories</span>
