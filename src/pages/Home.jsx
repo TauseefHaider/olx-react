@@ -111,7 +111,7 @@ function Home() {
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap gap-3 md:flex-row gap-x-8 justify-center md:justify-start">
+          <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row gap-x-8 justify-center lg:justify-start">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"
@@ -181,14 +181,14 @@ function Home() {
         </div>
         {/* <!-- Cars --> */}
         <div class="py-4 ">
-          <div class="flex justify-between items-center py-3">
+          <div class="flex justify-between items-center px-2 py-3">
             <h1 class="md:text-2xl text-lg font-bold">Cars</h1>
             <button class="flex items-center justify-center gap-1 font-bold text-[#00a49f]">
               View more
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap justify-center md:justify-start gap-3 md:flex-row gap-x-8">
+          <div class="flex flex-wrap lg:flex-nowrap justify-center lg:justify-start gap-3 md:flex-row gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"
@@ -258,14 +258,14 @@ function Home() {
         </div>
         {/* <!-- Bikes --> */}
         <div class="py-4  ">
-          <div class="flex justify-between items-center py-3">
+          <div class="flex justify-between items-center px-2 py-3">
             <h1 class="md:text-2xl text-lg font-bold">Bikes & Motorcycles</h1>
             <button class="flex items-center justify-center gap-1 font-bold text-[#00a49f]">
               View more
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap gap-3 md:flex-row justify-center md:justify-start gap-x-8">
+          <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"
@@ -335,14 +335,14 @@ function Home() {
         </div>
         {/* <!-- Houses --> */}
         <div class="py-4 ">
-          <div class="flex justify-between items-center py-3">
+          <div class="flex justify-between items-center px-2 py-3">
             <h1 class="md:text-2xl text-lg font-bold">Houses</h1>
             <button class="flex items-center justify-center gap-1 font-bold text-[#00a49f]">
               View more
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap gap-3 md:lex-row justify-center md:justify-start gap-x-8">
+          <div class="flex flex-wrap lg:flex-nowrap gap-3 md:lex-row justify-center lg:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"
@@ -415,14 +415,14 @@ function Home() {
         </div>
         {/* <!-- Tablets --> */}
         <div class="py-4 ">
-          <div class="flex justify-between items-center py-3">
+          <div class="flex justify-between items-center px-2 py-3">
             <h1 class="md:text-2xl text-lg font-bold">Tablets</h1>
             <button class="flex items-center justify-center gap-1 font-bold text-[#00a49f]">
               View more
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap gap-3 md:flex-row justify-center md:justify-start gap-x-8">
+          <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"

@@ -11,7 +11,7 @@ function Header() {
     <>
       <header className="bg-[#f7f8f8] sticky top-0">
         <div className="flex flex-col  gap-2 w-full md:max-w-[1280px] md:mx-auto py-3">
-          <div className="flex items-center justify-center gap-6 md:gap-10 mx-2">
+          <div className="flex items-center justify-center lg:justify-start gap-6 md:gap-10 mx-2">
             <img className="cursor-pointer" src={logo} alt="Logo" />
             <button className="group">
               <img src={motors} className="hover:fill-[#3a77ff]" alt="" />
@@ -26,7 +26,7 @@ function Header() {
               src={blacklogo}
               alt=""
             />
-            <div className="flex items-center border-2 border-[#002f34] rounded-[4px] gap-2 bg-white p-2">
+            <div className="lg:flex hidden items-center border-2 border-[#002f34] rounded-[4px] gap-2 bg-white p-2">
               <span className="material-symbols-outlined"> search </span>
               <input
                 className="outline-none border-0 text-lg"

@@ -12,7 +12,7 @@ function Footer() {
   return (
     <>
       {/* first div */}
-      <div className="mt-4 text-[#002f34] bg-[#f8faf9] md:flex gap-10 pl-28 pr-16 border-b-2 border-[#c6cfd1] hidden ">
+      <div className="mt-4 text-[#002f34] bg-[#f8faf9] lg:flex gap-10 pl-28 pr-16 border-b-2 border-[#c6cfd1] hidden ">
         <img src={f1} alt="" />
         <div className="py-6   w-[410px]">
           <div className="gap-4 flex flex-col border-r-2 border-[#c6cfd1]">
@@ -34,7 +34,7 @@ function Footer() {
       </div>
       {/* second div */}
       <div className="bg-[#ebeeef] text-sm  ">
-        <div className="max-w-[1280px] items-center py-6 flex flex-col md:flex-row gap-16 pb-10">
+        <div className="max-w-[1280px] mx-auto items-center py-6 flex md:flex-wrap lg:flex-nowrap flex-col md:flex-row gap-16 pb-10">
           <div className="flex flex-col items-center gap-1">
             <p className="font-bold mb-1">POPULAR CATEGORIES</p>
             <p className="text-[#616768] text-[12px] cursor-pointer hover:text-[#002f34]">
@@ -80,7 +80,7 @@ function Footer() {
               OLX for Businesses
             </p>
           </div>
-          <div className="flex flex-col item-center gap-1">
+          <div className="flex flex-col items-center gap-1">
             <p className="font-bold mb-1">OLX</p>
             <p className="text-[#616768] text-[12px] cursor-pointer hover:text-[#002f34]">
               Help
