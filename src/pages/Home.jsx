@@ -41,7 +41,7 @@ function Home() {
         {/* <!-- all categories --> */}
         <div class="pb-11 py-3 px-2">
           <h1 class="md:text-2xl text-lg font-bold py-2">All categories</h1>
-          <div class="flex font-bold gap-y-20 gap-x-10 flex-wrap py-5">
+          <div class="flex font-bold gap-y-20 gap-x-10 flex-wrap justify-center md:justify-start py-5">
             <div class="w-[106px] h-[116px]">
               <img src={mob} alt="" />
               <div class="text-center py-3">Mobiles</div>
@@ -111,7 +111,7 @@ function Home() {
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap gap-3 md:flex-row gap-x-8 px-3">
+          <div class="flex flex-wrap gap-3 md:flex-row gap-x-8 justify-center md:justify-start">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"
@@ -188,7 +188,7 @@ function Home() {
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap px-3 gap-3 md:flex-row gap-x-8">
+          <div class="flex flex-wrap justify-center md:justify-start gap-3 md:flex-row gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"
@@ -265,7 +265,7 @@ function Home() {
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap gap-3 md:flex-row px-3 gap-x-8">
+          <div class="flex flex-wrap gap-3 md:flex-row justify-center md:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"
@@ -342,7 +342,7 @@ function Home() {
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap gap-3 md:lex-row px-3 gap-x-8">
+          <div class="flex flex-wrap gap-3 md:lex-row justify-center md:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"
@@ -422,7 +422,7 @@ function Home() {
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
             </button>
           </div>
-          <div class="flex flex-wrap gap-3 md:flex-row px-3 gap-x-8">
+          <div class="flex flex-wrap gap-3 md:flex-row justify-center md:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
                 class="object-cover rounded-lg h-[200px]"

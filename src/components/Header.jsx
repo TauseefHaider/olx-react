@@ -11,7 +11,7 @@ function Header() {
     <>
       <header className="bg-[#f7f8f8] sticky top-0">
         <div className="flex flex-col  gap-2 w-full md:max-w-[1280px] md:mx-auto py-3">
-          <div className="flex items-center gap-6 md:gap-10 mx-2">
+          <div className="flex items-center justify-center gap-6 md:gap-10 mx-2">
             <img className="cursor-pointer" src={logo} alt="Logo" />
             <button className="group">
               <img src={motors} className="hover:fill-[#3a77ff]" alt="" />
