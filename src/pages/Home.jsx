@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import mob from "../assets/images/mob.png";
 import vihecal from "../assets/images/vihecal.png";
 import home from "../assets/images/home.png";
@@ -106,10 +107,13 @@ function Home() {
         <div class="py-4 ">
           <div class="flex justify-between items-center px-2 py-3">
             <h1 class="md:text-2xl text-lg font-bold">Mobile Phones</h1>
-            <button class="flex items-center  justify-center gap-1 font-bold text-[#00a49f]">
+            <Link
+              to={"mobiles"}
+              class="flex items-center  justify-center gap-1 font-bold text-[#00a49f]"
+            >
               View more
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
-            </button>
+            </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row gap-x-8 justify-center lg:justify-start">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
@@ -183,10 +187,13 @@ function Home() {
         <div class="py-4 ">
           <div class="flex justify-between items-center px-2 py-3">
             <h1 class="md:text-2xl text-lg font-bold">Cars</h1>
-            <button class="flex items-center justify-center gap-1 font-bold text-[#00a49f]">
+            <Link
+              to={"cars"}
+              class="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
+            >
               View more
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
-            </button>
+            </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap justify-center lg:justify-start gap-3 md:flex-row gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
@@ -260,10 +267,13 @@ function Home() {
         <div class="py-4  ">
           <div class="flex justify-between items-center px-2 py-3">
             <h1 class="md:text-2xl text-lg font-bold">Bikes & Motorcycles</h1>
-            <button class="flex items-center justify-center gap-1 font-bold text-[#00a49f]">
+            <Link
+              to={"bikes"}
+              class="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
+            >
               View more
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
-            </button>
+            </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
@@ -337,10 +347,13 @@ function Home() {
         <div class="py-4 ">
           <div class="flex justify-between items-center px-2 py-3">
             <h1 class="md:text-2xl text-lg font-bold">Houses</h1>
-            <button class="flex items-center justify-center gap-1 font-bold text-[#00a49f]">
+            <Link
+              to={"houses"}
+              class="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
+            >
               View more
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
-            </button>
+            </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap gap-3 md:lex-row justify-center lg:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
@@ -417,10 +430,13 @@ function Home() {
         <div class="py-4 ">
           <div class="flex justify-between items-center px-2 py-3">
             <h1 class="md:text-2xl text-lg font-bold">Tablets</h1>
-            <button class="flex items-center justify-center gap-1 font-bold text-[#00a49f]">
+            <Link
+              to={"tablets"}
+              class="flex items-center justify-center gap-1 font-bold text-[#00a49f]"
+            >
               View more
               <span class="material-symbols-outlined"> arrow_forward_ios </span>
-            </button>
+            </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
