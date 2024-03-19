@@ -37,6 +37,7 @@ import t4 from "../assets/images/t4.jpg";
 import Card from "../components/Card";
 
 function Home() {
+  // mobarray
   const mobileArray = [
     {
       img: m1,
@@ -60,6 +61,114 @@ function Home() {
       img: m4,
       price: "69,999",
       name: "IPhone XS Max 64GB NOT PTA",
+      address: "Gulberg 3, Lahore",
+    },
+  ];
+  // carArraay
+  const carArray = [
+    {
+      img: c1,
+      price: "2,900,000",
+      name: "Suzuki Every Wagon 2016",
+      address: "DHA Phase 1, Lahore",
+    },
+    {
+      img: c2,
+      price: "7,500,000",
+      name: "Honda Vezel Hybrid Z Honda Sensing 2018",
+      address: "Saddar, Karachi",
+    },
+    {
+      img: c3,
+      price: "2,495,000",
+      name: "Cultus VXR in Excellent Condition",
+      address: "Awan Town, Lahore",
+    },
+    {
+      img: c4,
+      price: "2,030,000",
+      name: "Suzuki Swift",
+      address: "Gulberg 3, Lahore",
+    },
+  ];
+  // BikeArray
+  const bikeArray = [
+    {
+      img: b1,
+      price: "48,000",
+      name: "SUTLEJ DA 70 CDI 2019 Model",
+      address: "Jillani Colony, Bahawalpur",
+    },
+    {
+      img: b2,
+      price: "56,000",
+      name: "I am selling Road Prince 70CC 2022 Model",
+      address: "Saddar, Karachi",
+    },
+    {
+      img: b3,
+      price: "157,000",
+      name: "Honda CD 70 / 2024 New",
+      address: "Askari, Lahore",
+    },
+    {
+      img: b4,
+      price: "187,000",
+      name: "Honda 125 Model 2023",
+      address: "Narwala Road, Faisalabad",
+    },
+  ];
+  // HouseArray
+  const houseArray = [
+    {
+      img: h1,
+      price: "110,000,000",
+      name: "Brand New,Proper Corner, 40x80 House for Sale with 6 Bedrooms...",
+      address: "DHA Phase 1, Lahore",
+    },
+    {
+      img: h2,
+      price: "78,500,000",
+      name: "For Sale",
+      address: "Saddar, Karachi",
+    },
+    {
+      img: h3,
+      price: "115,000,000",
+      name: "Get Touch Now To Buy A Prime Location Home",
+      address: "Awan Town, Lahore",
+    },
+    {
+      img: h4,
+      price: "70,030,000",
+      name: "House for Sale",
+      address: "Gulberg 3, Lahore",
+    },
+  ];
+  // TabletsArray
+  const tabletArray = [
+    {
+      img: t1,
+      price: "27,999",
+      name: "Apple IPad Mini 4 128GB in Wholesale",
+      address: "DHA Phase 1, Lahore",
+    },
+    {
+      img: t2,
+      price: "6,499",
+      name: "Tabs Best variety Tablets For Kids",
+      address: "Saddar, Karachi",
+    },
+    {
+      img: t3,
+      price: "235,000",
+      name: "IPad Pro 12.9 Inch 4th Gen 256GB",
+      address: "Awan Town, Lahore",
+    },
+    {
+      img: t4,
+      price: "8,000",
+      name: "New Tab/ Gaming Tab/ Kids Tab",
       address: "Gulberg 3, Lahore",
     },
   ];
@@ -161,71 +270,9 @@ function Home() {
             </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap justify-center lg:justify-start gap-3 md:flex-row gap-x-8">
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={c1}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 2,900,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Suzuki Every Wagon 2016</p>
-                <p class="text-xs">DHA Phase 1, Lahore</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={c2}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 7,500,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Honda Vezel Hybrid Z Honda Sensing 2018</p>
-                <p class="text-xs">Saddar, Karachi</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={c3}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 2,495,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Cultus VXR in Excellent Condition</p>
-                <p class="text-xs">Awan Town, Lahore</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={c4}
-                alt=""
-              />
-
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 2,030,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Suzuki Swift</p>
-                <p class="text-xs">Gulberg 3, Lahore</p>
-              </div>
-            </div>
+            {carArray.map((product, i) => {
+              return <Card product={product} key={product.img} />;
+            })}
           </div>
         </div>
         {/* <!-- Bikes --> */}
@@ -241,71 +288,9 @@ function Home() {
             </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={b1}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 48,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">SUTLEJ DA 70 CDI 2019 Model</p>
-                <p class="text-xs">Jillani Colony, Bahawalpur</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={b2}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 56,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">I am selling Road Prince 70CC 2022 Model</p>
-                <p class="text-xs">Saddar, Lahore</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={b3}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 157,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Honda CD 70 / 2024 New</p>
-                <p class="text-xs">Askari, Lahore</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={b4}
-                alt=""
-              />
-
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 187,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Honda 125 Model 2023</p>
-                <p class="text-xs">Narwala Road, Faisalabad</p>
-              </div>
-            </div>
+            {bikeArray.map((product, i) => {
+              return <Card product={product} key={product.img} />;
+            })}
           </div>
         </div>
         {/* <!-- Houses --> */}
@@ -321,74 +306,9 @@ function Home() {
             </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap gap-3 md:lex-row justify-center lg:justify-start gap-x-8">
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={h1}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 110,000,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">
-                  Brand New,Proper Corner, 40x80 House for Sale with 6
-                  Bedrooms...
-                </p>
-                <p class="text-xs">DHA Phase 1, Lahore</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={h2}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 78,500,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">For Sale</p>
-                <p class="text-xs">Saddar, Karachi</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={h3}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 115,000,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Get Touch Now To Buy A Prime Location Home</p>
-                <p class="text-xs">Awan Town, Lahore</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={h4}
-                alt=""
-              />
-
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 70,030,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">House for Sale</p>
-                <p class="text-xs">Gulberg 3, Lahore</p>
-              </div>
-            </div>
+            {houseArray.map((product, i) => {
+              return <Card product={product} key={product.img} />;
+            })}
           </div>
         </div>
         {/* <!-- Tablets --> */}
@@ -404,71 +324,9 @@ function Home() {
             </Link>
           </div>
           <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[201px]"
-                width="300px"
-                src={t1}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 27,999</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Apple IPad Mini 4 128GB in Wholesale</p>
-                <p class="text-xs">DHA Phase 1, Lahore</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={t2}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 6,499</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">Tabs Best variety Tablets For Kids</p>
-                <p class="text-xs">Saddar, Karachi</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={t3}
-                alt=""
-              />
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 235,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">IPad Pro 12.9 Inch 4th Gen 256GB</p>
-                <p class="text-xs">Awan Town, Lahore</p>
-              </div>
-            </div>
-            <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
-              <img
-                class="object-cover rounded-lg h-[200px]"
-                width="300px"
-                src={t4}
-                alt=""
-              />
-
-              <div class="p-3">
-                <div class="flex justify-between py-2">
-                  <span>RS 8,000</span>
-                  <span class="material-symbols-outlined"> favorite </span>
-                </div>
-                <p class="py-3">New Tab/ Gaming Tab/ Kids Tab</p>
-                <p class="text-xs">Gulberg 3, Lahore</p>
-              </div>
-            </div>
+            {tabletArray.map((product, i) => {
+              return <Card product={product} key={product.img} />;
+            })}
           </div>
         </div>
       </section>

@@ -66,7 +66,7 @@ function Header() {
         </div>
       </header>
       {/* Manu */}
-      <menu className="py-2 border-b-2 shadow-md hidden">
+      <menu className="py-2 border-b-2 shadow-md hidden md:block">
         <div className="flex max-w-[1280px] mx-auto gap-5">
           <div className="flex justify-center items-center gap-2 font-bold cursor-pointer">
             <span>All categories</span>
