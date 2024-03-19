@@ -441,7 +441,7 @@ function Home() {
           <div class="flex flex-wrap lg:flex-nowrap gap-3 md:flex-row justify-center lg:justify-start gap-x-8">
             <div class="flex-col rounded-lg border-2 shadow-md w-[300px] h-[350px]">
               <img
-                class="object-cover rounded-lg h-[200px]"
+                class="object-cover rounded-lg h-[201px]"
                 width="300px"
                 src={t1}
                 alt=""
